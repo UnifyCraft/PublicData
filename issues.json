@@ -1,0 +1,42 @@
+{
+    "1.8.9": [
+        {
+            "solution": "If you're using a Microsoft account, you need to enable online multiplayer. You can enable this setting [here](https://account.xbox.com/en-us/Settings) under the Xbox One/Windows 10 Online Safety tab. If you are a minor, you may need a parental figure's help.",
+            "causes": [
+                {
+                    "method": "contains",
+                    "value": "Failed to login: null"
+                }
+            ]
+        },
+        {
+            "solution": "This is an issue with Skytils' smart font renderer setting. Please disable it temporarily until a fix has been implemented.",
+            "causes": [
+                {
+                    "method": "contains",
+                    "value": "java.lang.NoClassDefFoundError: Could not initialize class gg.skytils.skytilsmod.utils.graphics.ScreenRenderer"
+                }
+            ]
+        }
+    ],
+    "1.12.2": [
+
+    ],
+    "1.16.5": [
+
+    ],
+    "1.17.1": [
+
+    ],
+    "1.18.2": [
+        {
+            "solution": "Essential wasn't able to load properly! Please join their [Discord server](https://discord.gg/essential) for help.",
+            "causes": [
+                {
+                    "method": "contains",
+                    "value": "java.lang.NoClassDefFoundError: Could not initialize class gg.essential.api.EssentialAPI"
+                }
+            ]
+        }
+    ]
+}
